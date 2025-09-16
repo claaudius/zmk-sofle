@@ -120,11 +120,11 @@
 
         layer_3 {
             bindings = <
-&trans  &kp EXCL  &kp QUESTION  &trans  &trans  &trans    &trans  &trans  &trans  &trans                &trans                 &trans  &trans
-&trans  &trans    &trans        &trans  &trans  &trans    &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-&trans  &trans    &trans        &trans  &trans  &trans    &trans  &trans  &trans  &trans                &trans                 &trans  &trans
-&trans  &trans    &trans        &trans  &trans  &trans    &trans  &trans  &trans  &trans                &trans                 &trans  &trans
-&trans  &trans    &trans        &trans  &trans  &trans    &trans  &trans  &trans  &trans                &trans                 &trans
+&kp GRAVE  &kp EXCL  &kp QUESTION  &kp HASH  &trans  &trans    &trans  &trans  &trans        &trans                &trans                 &trans  &trans
+&kp TILDE  &trans    &trans        &trans    &trans  &trans    &trans  &trans  &kp PLUS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans     &trans    &trans        &trans    &trans  &trans    &trans  &trans  &kp MINUS     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &kp EQUAL
+&trans     &trans    &trans        &trans    &trans  &trans    &trans  &trans  &kp ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
+&trans     &trans    &trans        &trans    &trans  &trans    &trans  &trans  &trans        &trans                &trans                 &trans
             >;
 
             display-name = "layer3";
