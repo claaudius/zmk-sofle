@@ -80,7 +80,17 @@
         PlayGame: PlayGame {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp Q &tog 4>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_wait_time 20>,
+                <&macro_press>,
+                <&kp Q>,
+                <&macro_release>,
+                <&kp LEFT_ALT &kp Q>,
+                <&macro_tap>,
+                <&tog 4>;
+
             label = "PLAYGAME";
         };
 
