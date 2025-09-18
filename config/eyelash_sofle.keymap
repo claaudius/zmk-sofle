@@ -76,6 +76,22 @@
         };
     };
 
+    macros {
+        PlayGame: PlayGame {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp Q &tog 4>;
+            label = "PLAYGAME";
+        };
+
+        ExitPlayGame: ExitPlayGame {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ESCAPE &tog 4>;
+            label = "EXITPLAYGAME";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -133,11 +149,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &kp W   &kp E   &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp F        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans  &trans  &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "layer4";
