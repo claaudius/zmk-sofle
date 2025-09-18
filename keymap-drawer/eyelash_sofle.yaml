@@ -6,7 +6,7 @@ layers:
   - '&mkp MB2'
   - '&mkp MB3'
   - $$mdi:keyboard-tab$$
-  - '&PlayGame'
+  - '&Test'
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
