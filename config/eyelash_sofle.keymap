@@ -147,7 +147,7 @@
         CTRL_SHIFT_CLICK: CTRL_SHIFT_CLICK {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LEFT_SHIFT &mkp MB1>;
+            bindings = <&kt LEFT_CONTROL &kt LEFT_SHIFT &mkp MB1 &kt LEFT_CONTROL &kt LEFT_SHIFT>;
             label = "CTRL_SHIFT_CLICK";
         };
     };
