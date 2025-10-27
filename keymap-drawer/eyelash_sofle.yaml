@@ -4,7 +4,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&CTRL_SHIFT_CLICK'
+  - '&mkp MB3'
   - $$mdi:keyboard-space$$
   - '&PlayGame'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
