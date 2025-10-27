@@ -52,9 +52,9 @@
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        quick-tap-ms = <200>;
-        require-prior-idle-ms = <200>;
+        tapping-term-ms = <300>;
+        quick-tap-ms = <300>;
+        require-prior-idle-ms = <300>;
         flavor = "tap-preferred";
     };
 
@@ -64,9 +64,21 @@
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        quick-tap-ms = <200>;
-        require-prior-idle-ms = <200>;
+        tapping-term-ms = <400>;
+        quick-tap-ms = <400>;
+        require-prior-idle-ms = <400>;
+        flavor = "tap-preferred";
+    };
+
+    hm_500: hm_500 {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HM_500";
+        bindings = <&kp>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <500>;
+        quick-tap-ms = <500>;
+        require-prior-idle-ms = <500>;
         flavor = "tap-preferred";
     };
 
