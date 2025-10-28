@@ -1,13 +1,13 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  Layer 0:
   - $$mdi:keyboard-esc$$
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
   - $$mdi:keyboard-space$$
   - '&PlayGame'
-  - {t: Layer_5, h: toggle}
+  - {t: Layer 5, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - {t: LAYER0, h: toggle}
+  - {t: Layer 0, h: toggle}
   - Y
   - U
   - I
@@ -41,7 +41,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: Z, h: layer2}
+  - {t: Z, h: Layer 2}
   - X
   - C
   - V
@@ -54,18 +54,18 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:volume-off$$
-  - {t: layer2, h: toggle}
+  - {t: Layer 2, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-option$$
-  - layer1
+  - Layer 1
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace$$', h: layer2}
-  - layer3
+  - {t: '$$mdi:backspace$$', h: Layer 2}
+  - Layer 3
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-caps$$
-  layer1:
+  Layer 1:
   - PgUp
   - F1
   - F2
@@ -130,8 +130,8 @@ layers:
   - '&mkp MB3'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  layer2:
-  - {t: LAYER0, h: toggle}
+  Layer 2:
+  - {t: Layer 0, h: toggle}
   - F1
   - F2
   - F3
@@ -195,8 +195,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  layer3:
-  - {t: LAYER0, h: toggle}
+  Layer 3:
+  - {t: Layer 0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -260,7 +260,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  layer4:
+  Layer 4:
   - '&ExitPlayGame'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -325,7 +325,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Layer_5:
+  Layer 5:
   - $$mdi:keyboard-esc$$
   - '1'
   - '2'
@@ -345,7 +345,7 @@ layers:
   - E
   - R
   - T
-  - {t: LAYER0, h: toggle}
+  - {t: Layer 0, h: toggle}
   - Y
   - U
   - I
@@ -382,7 +382,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - layer2
+  - Layer 2
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
