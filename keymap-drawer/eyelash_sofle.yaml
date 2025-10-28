@@ -7,7 +7,7 @@ layers:
   - '&mkp MB3'
   - $$mdi:keyboard-space$$
   - '&PlayGame'
-  - {t: '5', h: toggle}
+  - {t: Layer_5, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -325,7 +325,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '5':
+  Layer_5:
   - $$mdi:keyboard-esc$$
   - '1'
   - '2'
