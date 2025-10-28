@@ -1,13 +1,13 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  Layer 0:
+  LAYER 0:
   - $$mdi:keyboard-esc$$
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
   - $$mdi:keyboard-space$$
   - '&PlayGame'
-  - {t: Layer 5, h: toggle}
+  - {t: LAYER 5, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - {t: Layer 0, h: toggle}
+  - {t: LAYER 0, h: toggle}
   - Y
   - U
   - I
@@ -41,7 +41,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: Z, h: Layer 2}
+  - {t: Z, h: LAYER 2}
   - X
   - C
   - V
@@ -54,18 +54,18 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:volume-off$$
-  - {t: Layer 2, h: toggle}
+  - {t: LAYER 2, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-option$$
-  - Layer 1
+  - LAYER 1
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace$$', h: Layer 2}
-  - Layer 3
+  - {t: '$$mdi:backspace$$', h: LAYER 2}
+  - LAYER 3
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-caps$$
-  Layer 1:
+  LAYER 1:
   - PgUp
   - F1
   - F2
@@ -130,8 +130,8 @@ layers:
   - '&mkp MB3'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Layer 2:
-  - {t: Layer 0, h: toggle}
+  LAYER 2:
+  - {t: LAYER 0, h: toggle}
   - F1
   - F2
   - F3
@@ -195,8 +195,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Layer 3:
-  - {t: Layer 0, h: toggle}
+  LAYER 3:
+  - {t: LAYER 0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -260,7 +260,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Layer 4:
+  LAYER 4:
   - '&ExitPlayGame'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -325,7 +325,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Layer 5:
+  LAYER 5:
   - $$mdi:keyboard-esc$$
   - '1'
   - '2'
@@ -345,7 +345,7 @@ layers:
   - E
   - R
   - T
-  - {t: Layer 0, h: toggle}
+  - {t: LAYER 0, h: toggle}
   - Y
   - U
   - I
@@ -382,14 +382,14 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Layer 2
+  - LAYER 2
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-caps$$
   '6':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
