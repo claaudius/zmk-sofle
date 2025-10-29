@@ -238,7 +238,7 @@
 &kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T        &to 0  &kp Y          &kp U   &kp I      &kp O       &kp P          &none
 &kp LEFT_SHIFT    &kp A         &kp S         &kp D         &kp F         &kp G        &none  &kp H          &kp J   &kp K      &kp L       &kp SEMICOLON  &kp ENTER
 &kp LEFT_CONTROL  &kp Z         &kp X         &kp C         &kp V         &kp B        &none  &kp N          &kp M   &kp COMMA  &kp PERIOD  &kp SLASH      &none
-&trans            &none         &none         &none         &kp X         &kp SPACE    &none  &kp BACKSPACE  &none   &none      &none       &kp CAPSLOCK
+&trans            &kp A         &kp B         &kp C         &kp D         &kp SPACE    &none  &kp BACKSPACE  &kp E   &kp E      &kp G       &kp CAPSLOCK
             >;
 
             label = "LAYER 5";
