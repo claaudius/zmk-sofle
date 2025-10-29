@@ -377,7 +377,7 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - X
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
