@@ -382,7 +382,7 @@ layers:
   - A
   - B
   - C
-  - D
+  - LAYER 2
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
