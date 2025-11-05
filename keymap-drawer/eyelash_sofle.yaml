@@ -356,7 +356,7 @@ layers:
   - A
   - S
   - D
-  - F
+  - LAYER 2
   - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - H
