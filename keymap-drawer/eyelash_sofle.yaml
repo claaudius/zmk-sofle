@@ -17,38 +17,38 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - E
-  - R
-  - T
-  - {t: LAYER 0, h: toggle}
-  - Y
-  - U
-  - I
-  - O
+  - F
   - P
+  - B
+  - {t: LAYER 0, h: toggle}
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, s: ':'}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - A
+  - R
   - S
-  - D
-  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
+  - T
   - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - H
-  - {t: J, s: '$$mdi:apple-keyboard-shift$$'}
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - M
+  - N
+  - E
+  - I
+  - O
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: Z, h: LAYER 2}
+  - Z
   - X
   - C
+  - D
   - V
-  - B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - N
-  - M
+  - K
+  - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
@@ -171,7 +171,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '1'
   - '2'
   - '3'
@@ -190,7 +190,7 @@ layers:
   - A
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
