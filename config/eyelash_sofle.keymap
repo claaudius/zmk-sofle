@@ -173,7 +173,7 @@
             label = "CTRL_SHIFT_CLICK";
         };
 
-        WinD: WinD {
+        WinE: WinD {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -182,7 +182,8 @@
                 <&macro_wait_time 20>,
                 <&macro_press>,
                 <&kp E>,
-                <&macro_press>;
+                <&macro_release>,
+                <&kp LEFT_WIN &kp E>;
 
             label = "WIND";
         };
