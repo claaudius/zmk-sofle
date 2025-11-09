@@ -27,7 +27,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: '&mkp MB2'}
   - A
   - R
   - S
