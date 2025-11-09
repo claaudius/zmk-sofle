@@ -27,7 +27,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - A
   - R
   - S
@@ -54,11 +54,11 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: LAYER 2, h: toggle}
   - $$mdi:apple-keyboard-option$$
+  - '&mkp MB2'
   - LAYER 1
-  - {t: '$$mdi:keyboard-space$$', h: '&mkp MB1'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', h: LAYER 2}
   - LAYER 3
