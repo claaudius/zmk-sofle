@@ -187,6 +187,21 @@
 
             label = "WIND";
         };
+
+        ShowDesktop: ShowDesktop {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_wait_time 20>,
+                <&macro_press>,
+                <&kp D>,
+                <&macro_release>,
+                <&kp LEFT_WIN &kp D>;
+
+            label = "SHOWDESKTOP";
+        };
     };
 
     keymap {
@@ -207,11 +222,11 @@
 
         Layer_1 {
             bindings = <
-&kp PAGE_UP    &kp F1  &kp F2          &kp F3          &kp F4     &kp F5           &trans  &kp F6    &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
-&kp PAGE_DOWN  &trans  &kp HOME        &kp UP_ARROW    &kp END    &trans           &trans  &trans    &trans          &mmv MOVE_UP    &trans           &trans   &kp F12
-&kp ENTER      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp BACKSPACE    &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans   &kp ENTER
-&WinE          &trans  &trans          &trans          &trans     &kp DELETE       &trans  &trans    &trans          &trans          &trans           &trans   &trans
-&kp C_MUTE     &trans  &trans          &trans          &trans     &trans           &trans  &mkp MB1  &mkp MB2        &mkp MB3        &trans           &trans
+&kp PAGE_UP    &kp F1        &kp F2          &kp F3          &kp F4     &kp F5           &trans  &kp F6    &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
+&kp PAGE_DOWN  &trans        &kp HOME        &kp UP_ARROW    &kp END    &trans           &trans  &trans    &trans          &mmv MOVE_UP    &trans           &trans   &kp F12
+&kp ENTER      &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp BACKSPACE    &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans   &kp ENTER
+&WinE          &ShowDesktop  &trans          &trans          &trans     &kp DELETE       &trans  &trans    &trans          &trans          &trans           &trans   &trans
+&kp C_MUTE     &trans        &trans          &trans          &trans     &trans           &trans  &mkp MB1  &mkp MB2        &mkp MB3        &trans           &trans
             >;
 
             display-name = "LAYER 1";
