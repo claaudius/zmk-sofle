@@ -7,7 +7,7 @@ layers:
   - '&mkp MB3'
   - $$mdi:keyboard-space$$
   - '&PlayGame'
-  - {t: LAYER 5, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
@@ -20,7 +20,7 @@ layers:
   - F
   - P
   - B
-  - {t: LAYER 0, h: toggle}
+  - {t: LAYER 5, h: toggle}
   - J
   - L
   - U
@@ -345,7 +345,7 @@ layers:
   - E
   - R
   - T
-  - {t: LAYER 0, h: toggle}
+  - {t: LAYER 5, h: toggle}
   - Y
   - U
   - I
