@@ -7,7 +7,7 @@ layers:
   - '&mkp MB3'
   - $$mdi:keyboard-space$$
   - '&PlayGame'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
@@ -20,7 +20,7 @@ layers:
   - F
   - P
   - B
-  - {t: LAYER 5, h: toggle}
+  - {t: LAYER 0, h: toggle}
   - J
   - L
   - U
@@ -85,7 +85,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - END
   - '&WinDown'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: LAYER 1, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -150,7 +150,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: LAYER 2, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -215,7 +215,7 @@ layers:
   - '@'
   - '#'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: LAYER 3, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - +
   - (
@@ -280,7 +280,7 @@ layers:
   - E
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: LAYER 4, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
