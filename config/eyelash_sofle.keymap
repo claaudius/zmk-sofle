@@ -224,8 +224,8 @@
 
         Layer_0 {
             bindings = <
-&kp ESC                     &mkp MB1  &mkp MB2  &mkp MB3      &kp SPACE  &PlayGame                 &trans  &mkp MB1         &mkp MB2  &mkp MB3   &none     &kp CAPSLOCK   &kp LEFT_GUI
-&kp TAB                     &kp Q     &kp W     &kp F         &kp P      &kp B                     &tog 5  &kp J            &kp L     &kp U      &kp Y     &kp SEMICOLON  &kp DELETE
+&kp ESC                     &mkp MB1  &mkp MB2  &mkp MB3      &kp SPACE  &PlayGame                 &none   &mkp MB1         &mkp MB2  &mkp MB3   &none     &kp CAPSLOCK   &kp LEFT_GUI
+&kp TAB                     &kp Q     &kp W     &kp F         &kp P      &kp B                     &tog 0  &kp J            &kp L     &kp U      &kp Y     &kp SEMICOLON  &kp DELETE
 &tap_dance_click MB2 ENTER  &kp A     &kp R     &kp S         &kp T      &kp G                     &none   &kp M            &kp N     &kp E      &kp I     &kp O          &kp ENTER
 &sk LSHFT                   &kp Z     &kp X     &kp C         &kp D      &kp V                     &none   &kp K            &kp H     &kp COMMA  &kp DOT   &kp FSLH       &sk RIGHT_SHIFT
 &kp C_MUTE                  &tog 2    &none     &kp LEFT_ALT  &mo 1      &hm LEFT_CONTROL SPACE    &none   &lt 2 BACKSPACE  &mo 3     &mkp MB1   &mkp MB2  &mkp MB3
@@ -238,7 +238,7 @@
         Layer_1 {
             bindings = <
 &kp PAGE_UP    &kp F1        &kp F2          &kp F3          &kp F4     &kp F5           &trans  &kp F6    &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
-&kp PAGE_DOWN  &trans        &kp HOME        &kp UP_ARROW    &kp END    &WinDown         &trans  &trans    &trans          &mmv MOVE_UP    &trans           &trans   &kp F12
+&kp PAGE_DOWN  &trans        &kp HOME        &kp UP_ARROW    &kp END    &WinDown         &tog 1  &trans    &trans          &mmv MOVE_UP    &trans           &trans   &kp F12
 &kp ENTER      &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp BACKSPACE    &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans   &kp ENTER
 &WinE          &ShowDesktop  &trans          &trans          &trans     &kp DELETE       &trans  &trans    &trans          &trans          &trans           &trans   &trans
 &kp C_MUTE     &trans        &trans          &trans          &trans     &trans           &trans  &mkp MB1  &mkp MB2        &mkp MB3        &trans           &trans
@@ -251,7 +251,7 @@
         Layer_2 {
             bindings = <
 &to 0   &kp F1   &kp F2        &kp F3        &kp F4        &kp F5             &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&trans  &trans   &kp N7        &kp N8        &kp N9        &kp BACKSPACE      &trans  &trans  &trans  &trans  &trans  &trans   &kp F12
+&trans  &trans   &kp N7        &kp N8        &kp N9        &kp BACKSPACE      &tog 2  &trans  &trans  &trans  &trans  &trans   &kp F12
 &trans  &kp DOT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_NUMBER_0    &trans  &trans  &trans  &trans  &trans  &trans   &trans
 &trans  &trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSPACE      &trans  &trans  &trans  &trans  &trans  &trans   &trans
 &trans  &trans   &trans        &trans        &kp A         &kp LCTRL          &trans  &trans  &trans  &trans  &trans  &trans
@@ -264,7 +264,7 @@
         Layer_3 {
             bindings = <
 &to 0   &trans  &trans           &trans       &trans     &trans           &trans  &trans     &trans        &trans                &trans                 &trans  &trans
-&trans  &trans  &kp EXCLAMATION  &kp AT       &kp HASH   &trans           &trans  &trans     &kp PLUS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans  &trans  &kp EXCLAMATION  &kp AT       &kp HASH   &trans           &tog 3  &trans     &kp PLUS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
 &trans  &trans  &kp DOLLAR       &kp PERCENT  &kp CARET  &kp AMPERSAND    &trans  &kp EQUAL  &kp MINUS     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans
 &trans  &trans  &trans           &trans       &trans     &trans           &trans  &trans     &kp ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
 &trans  &trans  &trans           &trans       &trans     &trans           &trans  &trans     &trans        &trans                &trans                 &trans
@@ -277,7 +277,7 @@
         Layer_4 {
             bindings = <
 &ExitPlayGame   &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &kp W   &kp E   &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &kp W   &kp E   &trans  &trans       &tog 4  &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &kp A   &kp S   &kp D   &kp F   &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans  &trans  &trans  &trans  &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans
