@@ -66,7 +66,7 @@ layers:
   - '&mkp MB2'
   - '&mkp MB3'
   LAYER 1:
-  - PgUp
+  - PgDn
   - F1
   - F2
   - F3
@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - F11
-  - PgDn
+  - PgUp
   - $$mdi:pan-down$$
   - HOME
   - $$mdi:arrow-up-bold$$
@@ -108,8 +108,8 @@ layers:
   - '&WinE'
   - '&ShowDesktop'
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-up$$
-  - $$mdi:pan-down$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
