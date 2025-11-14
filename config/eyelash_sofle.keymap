@@ -226,7 +226,7 @@
             bindings = <
 &kp ESC                     &mkp MB1  &mkp MB2  &mkp MB3      &kp SPACE         &PlayGame                 &none   &mkp MB1         &mkp MB2           &mkp MB3   &none     &kp CAPSLOCK   &kp LEFT_GUI
 &kp TAB                     &kp Q     &kp W     &kp F         &kp P             &kp B                     &tog 5  &kp J            &kp L              &kp U      &kp Y     &kp SEMICOLON  &kp DELETE
-&tap_dance_click MB2 ENTER  &kp A     &kp R     &kp S         &hm T LEFT_SHIFT  &kp G                     &none   &kp M            &hm N RIGHT_SHIFT  &kp E      &kp I     &kp O          &kp ENTER
+&tap_dance_click MB2 ENTER  &kp A     &kp R     &kp S         &hm LEFT_SHIFT T  &kp G                     &none   &kp M            &hm RIGHT_SHIFT N  &kp E      &kp I     &kp O          &kp ENTER
 &mkp MB2                    &kp Z     &kp X     &kp C         &kp D             &kp V                     &none   &kp K            &kp H              &kp COMMA  &kp DOT   &kp FSLH       &sk RIGHT_SHIFT
 &kp C_MUTE                  &tog 2    &none     &kp LEFT_ALT  &mo 1             &hm LEFT_CONTROL SPACE    &none   &lt 2 BACKSPACE  &mo 3              &mkp MB1   &mkp MB2  &mkp MB3
             >;
