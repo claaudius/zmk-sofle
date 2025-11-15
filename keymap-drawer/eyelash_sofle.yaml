@@ -30,13 +30,13 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '&mkp MB2'}
   - A
   - R
-  - S
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - M
   - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
-  - E
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
   - I
   - O
   - {t: '$$mdi:keyboard-return$$', type: enter}
