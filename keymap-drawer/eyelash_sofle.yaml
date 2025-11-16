@@ -40,7 +40,7 @@ layers:
   - I
   - O
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&mkp MB2'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '&mkp MB2'}
   - Z
   - X
   - C
