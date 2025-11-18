@@ -17,7 +17,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - {t: F, h: '$$mdi:keyboard-space$$'}
+  - F
   - {t: P, h: '$$mdi:keyboard-space$$'}
   - B
   - {t: LAYER 5, h: toggle}
