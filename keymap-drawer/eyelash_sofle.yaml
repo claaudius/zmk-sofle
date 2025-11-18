@@ -18,7 +18,7 @@ layers:
   - Q
   - W
   - F
-  - P
+  - {t: P, h: '$$mdi:keyboard-space$$'}
   - B
   - {t: LAYER 5, h: toggle}
   - J
