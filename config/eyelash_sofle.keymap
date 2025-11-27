@@ -256,11 +256,11 @@
 
         Layer_0 {
             bindings = <
-&kp ESC                               &mkp MB1      &mkp MB2  &mkp MB3      &kp F4            &PlayGame                 &none   &none            &none              &none              &kp BACKSPACE  &none          &kp LEFT_GUI
-&kp TAB                               &kp Q         &kp W     &kp F         &hm SPACE P       &kp B                     &tog 5  &kp J            &kp L              &kp U              &kp Y          &kp SEMICOLON  &kp DELETE
-&tap_dance_click MB2 ENTER            &kp A         &kp R     &kp S         &hm LEFT_SHIFT T  &kp G                     &none   &kp M            &hm RIGHT_SHIFT N  &hm RIGHT_SHIFT E  &kp I          &kp O          &kp ENTER
-&tap_dance_with_mouse MB2 LEFT_SHIFT  &kp Z         &kp X     &kp C         &kp D             &kp V                     &none   &kp K            &kp H              &kp COMMA          &kp DOT        &kp FSLH       &sk RIGHT_SHIFT
-&kp C_MUTE                            &CtrlShiftS2  &tog 2    &kp LEFT_ALT  &mo 1             &hm LEFT_CONTROL SPACE    &none   &lt 2 BACKSPACE  &mo 3              &kp CAPSLOCK       &none          &none
+&kp ESC                               &mkp MB1      &mkp MB2  &mkp MB3      &kp F4                  &PlayGame    &none   &none  &none              &none              &kp BACKSPACE  &none          &kp LEFT_GUI
+&kp TAB                               &kp Q         &kp W     &kp F         &hm SPACE P             &kp B        &tog 5  &kp J  &kp L              &kp U              &kp Y          &kp SEMICOLON  &kp DELETE
+&tap_dance_click MB2 ENTER            &kp A         &kp R     &kp S         &hm LEFT_SHIFT T        &kp G        &none   &kp M  &hm RIGHT_SHIFT N  &hm RIGHT_SHIFT E  &kp I          &kp O          &kp ENTER
+&tap_dance_with_mouse MB2 LEFT_SHIFT  &kp Z         &kp X     &kp C         &kp D                   &kp V        &none   &kp K  &kp H              &kp COMMA          &kp DOT        &kp FSLH       &sk RIGHT_SHIFT
+&kp C_MUTE                            &CtrlShiftS2  &tog 2    &kp LEFT_ALT  &hm LEFT_CONTROL SPACE  &mo 1        &none   &mo 3  &lt 2 BACKSPACE    &none              &none          &kp CAPSLOCK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
