@@ -56,9 +56,9 @@ layers:
   - $$mdi:volume-off$$
   - '&CtrlShiftS2'
   - {t: LAYER 2, h: toggle}
-  - LAYER 1
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - LAYER 1
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - LAYER 3
   - {t: '$$mdi:backspace$$', h: LAYER 2}
@@ -121,9 +121,9 @@ layers:
   - $$mdi:volume-off$$
   - {t: LAYER 5, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
