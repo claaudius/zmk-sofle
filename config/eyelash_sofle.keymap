@@ -308,11 +308,11 @@
 
         Layer_4 {
             bindings = <
-&ExitPlayGame   &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &kp W   &kp E   &trans  &trans       &tog 4  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &kp A   &kp S   &kp D   &kp F   &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans
+&ExitPlayGame   &trans  &trans  &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &kp W   &kp E   &trans     &trans       &tog 4  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &kp A   &kp S   &kp D   &kp F      &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &kp SPACE  &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "LAYER 4";
