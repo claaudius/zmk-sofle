@@ -41,7 +41,7 @@ layers:
   - O
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '&mkp MB2'}
-  - Z
+  - {t: Z, h: LAYER 2}
   - X
   - C
   - D
@@ -171,7 +171,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '8'
-  - {t: ',', s: <}
+  - {t: ',', s: <, type: held}
   - '1'
   - '2'
   - '3'
@@ -191,7 +191,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -561,7 +561,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - X
+  - {t: X, type: held}
   - X
   - X
   - {t: '$$mdi:transfer$$', type: trans}
