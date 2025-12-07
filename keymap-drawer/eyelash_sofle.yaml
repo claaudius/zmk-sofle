@@ -5,7 +5,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
-  - F4
+  - $$mdi:keyboard-space$$
   - '&PlayGame'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
