@@ -273,7 +273,7 @@
 &none         &msc SCRL_DOWN  &kp HOME        &kp UP_ARROW    &kp END     &WinDown         &tog 1  &trans    &trans          &mmv MOVE_UP    &trans           &trans   &kp F12
 &kp ENTER     &msc SCRL_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT   &kp PAGE_UP      &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans   &kp ENTER
 &ShowDesktop  &WinE           &trans          &kp BACKSPACE   &kp DELETE  &kp PAGE_DOWN    &trans  &trans    &trans          &trans          &trans           &trans   &trans
-&kp C_MUTE    &kp DEL         &trans          &none           &trans      &trans           &trans  &mkp MB3  &mkp MB1        &mkp MB2        &trans           &trans
+&kp C_MUTE    &kp DEL         &kp A           &none           &trans      &trans           &trans  &mkp MB3  &mkp MB1        &mkp MB2        &trans           &trans
             >;
 
             display-name = "LAYER 1";
