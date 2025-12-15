@@ -67,7 +67,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   LAYER 1:
   - $$mdi:backspace-reverse-outline$$
-  - F1
+  - F2
   - F2
   - F3
   - F4
@@ -120,7 +120,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
