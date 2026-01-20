@@ -108,8 +108,8 @@ layers:
   - '&ShowDesktop'
   - '&WinE'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:volume-high$$
+  - $$mdi:volume-low$$
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
