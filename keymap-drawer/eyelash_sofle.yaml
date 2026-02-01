@@ -46,7 +46,7 @@ layers:
   - C
   - D
   - V
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '6', h: toggle}
   - K
   - H
   - {t: ',', s: <}
@@ -436,7 +436,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: LAYER 0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
