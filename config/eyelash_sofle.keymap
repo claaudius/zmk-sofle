@@ -336,7 +336,7 @@
 &none       &kp LC(NUMBER_1)  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4      &kp NUMBER_5    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &none       &none             &kp TAB         &kp UP_ARROW    &none             &none           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp ESCAPE  &kp CAPSLOCK      &kp LEFT_ARROW  &kp DOWN        &kp RIGHT         &none           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&none       &kp Z             &kp X           &kp C           &kp V             &kp B           &tog 0  &trans  &trans  &trans  &trans  &trans  &trans
+&none       &kp Z             &kp X           &kp C           &kp V             &kp B           &tog 6  &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &none             &none           &kp LEFT_SHIFT  &kp LEFT_CONTROL  &none           &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
