@@ -286,7 +286,7 @@
 &trans          &trans  &kp N7        &kp N8        &kp N9                  &kp N0           &tog 2  &trans  &trans  &trans  &trans  &trans   &kp F12
 &kp ENTER       &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6            &kp PERIOD       &trans  &trans  &trans  &trans  &trans  &trans   &trans
 &kp LEFT_SHIFT  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3            &kp COMMA        &trans  &trans  &trans  &trans  &trans  &trans   &trans
-&trans          &none   &none         &kp LEFT_ALT  &hm LEFT_CONTROL SPACE  &kp BACKSPACE    &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &none   &to 0         &kp LEFT_ALT  &hm LEFT_CONTROL SPACE  &kp BACKSPACE    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "LAYER 2";
