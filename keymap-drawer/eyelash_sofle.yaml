@@ -185,7 +185,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: LAYER 0, h: toggle}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
