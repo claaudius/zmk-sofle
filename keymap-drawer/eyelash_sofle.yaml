@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&PlayGame'
   - $$mdi:pan-down$$
   - HOME
   - $$mdi:arrow-up-bold$$
@@ -107,9 +107,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&ShowDesktop'
   - '&WinE'
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&PlayGame'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
