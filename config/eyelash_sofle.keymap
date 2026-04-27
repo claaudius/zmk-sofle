@@ -256,11 +256,11 @@
 
         Layer_0 {
             bindings = <
-&kp ESC                      &mkp MB1      &mkp MB2  &mkp MB3      &kp SPACE                   &PlayGame    &none   &none  &none              &none              &kp BACKSPACE  &none          &kp LEFT_GUI
-&kp TAB                      &kp Q         &kp W     &kp F         &hm SPACE P                 &kp B        &tog 5  &kp J  &kp L              &kp U              &kp Y          &kp SEMICOLON  &kp DELETE
-&tap_dance_click RCLK ENTER  &kp A         &kp R     &kp S         &hm LEFT_SHIFT T            &kp G        &none   &kp M  &hm RIGHT_SHIFT N  &hm RIGHT_SHIFT E  &kp I          &kp O          &kp ENTER
-&sk LEFT_SHIFT               &lt 2 Z       &kp X     &kp C         &kp D                       &kp V        &tog 6  &kp K  &kp H              &kp COMMA          &kp DOT        &kp FSLH       &sk RIGHT_SHIFT
-&kp C_MUTE                   &CtrlShiftS2  &none     &kp LEFT_ALT  &hm_300 LEFT_CONTROL SPACE  &mo 1        &none   &mo 3  &lt 2 BACKSPACE    &mo 3              &none          &kp CAPSLOCK
+&kp ESC                      &mkp MB1      &mkp MB2  &mkp MB3      &kp C_VOLUME_DOWN           &kp C_VOLUME_UP    &none   &none  &none              &none              &kp BACKSPACE  &none          &kp LEFT_GUI
+&kp TAB                      &kp Q         &kp W     &kp F         &hm SPACE P                 &kp B              &tog 5  &kp J  &kp L              &kp U              &kp Y          &kp SEMICOLON  &kp DELETE
+&tap_dance_click RCLK ENTER  &kp A         &kp R     &kp S         &hm LEFT_SHIFT T            &kp G              &none   &kp M  &hm RIGHT_SHIFT N  &hm RIGHT_SHIFT E  &kp I          &kp O          &kp ENTER
+&sk LEFT_SHIFT               &lt 2 Z       &kp X     &kp C         &kp D                       &kp V              &tog 6  &kp K  &kp H              &kp COMMA          &kp DOT        &kp FSLH       &sk RIGHT_SHIFT
+&kp C_MUTE                   &CtrlShiftS2  &none     &kp LEFT_ALT  &hm_300 LEFT_CONTROL SPACE  &mo 1              &none   &mo 3  &lt 2 BACKSPACE    &mo 3              &none          &kp CAPSLOCK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -269,11 +269,11 @@
 
         Layer_1 {
             bindings = <
-&kp DELETE    &kp F2          &kp F2          &kp F3             &kp F4           &kp F5           &trans  &kp F6    &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
-&none         &msc SCRL_DOWN  &kp HOME        &kp UP_ARROW       &kp END          &WinDown         &tog 1  &trans    &trans          &mmv MOVE_UP    &trans           &trans   &kp F12
-&kp ENTER     &msc SCRL_UP    &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT        &kp PAGE_UP      &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans   &kp ENTER
-&ShowDesktop  &WinE           &trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp PAGE_DOWN    &trans  &trans    &trans          &trans          &trans           &trans   &trans
-&kp C_MUTE    &kp DEL         &kp A           &none              &trans           &trans           &trans  &mkp MB3  &mkp MB1        &mkp MB2        &trans           &trans
+&kp DELETE    &kp F2          &kp F2          &kp F3          &kp F4     &kp F5           &trans  &kp F6    &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
+&none         &msc SCRL_DOWN  &kp HOME        &kp UP_ARROW    &kp END    &PlayGame        &tog 1  &trans    &trans          &mmv MOVE_UP    &trans           &trans   &kp F12
+&kp ENTER     &msc SCRL_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_UP      &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans   &kp ENTER
+&ShowDesktop  &WinE           &trans          &none           &WinDown   &kp PAGE_DOWN    &trans  &trans    &trans          &trans          &trans           &trans   &trans
+&kp C_MUTE    &kp DEL         &kp A           &none           &trans     &trans           &trans  &mkp MB3  &mkp MB1        &mkp MB2        &trans           &trans
             >;
 
             display-name = "LAYER 1";
