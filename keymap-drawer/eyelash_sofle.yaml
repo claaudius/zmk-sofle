@@ -84,7 +84,7 @@ layers:
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - '&PlayGame'
+  - '&WinDown'
   - {t: LAYER 1, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -109,7 +109,7 @@ layers:
   - '&WinE'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&WinDown'
+  - '&PlayGame'
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
