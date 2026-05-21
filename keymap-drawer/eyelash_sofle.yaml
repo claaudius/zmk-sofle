@@ -600,3 +600,5 @@ combos:
   k: {t: '''', s: '"'}
 - p: [16, 22]
   k: '"'
+- p: [42, 48]
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
