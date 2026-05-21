@@ -141,6 +141,11 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <16 22>;
         };
+
+        StickyShift {
+            bindings = <&sk LEFT_SHIFT>;
+            key-positions = <42 48>;
+        };
     };
 
     macros {
