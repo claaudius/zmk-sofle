@@ -146,6 +146,11 @@
             bindings = <&sk LEFT_SHIFT>;
             key-positions = <42 48>;
         };
+
+        StickyShift2 {
+            bindings = <&sk LEFT_SHIFT>;
+            key-positions = <28 36>;
+        };
     };
 
     macros {
