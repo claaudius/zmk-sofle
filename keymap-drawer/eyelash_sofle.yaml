@@ -17,38 +17,38 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - E
-  - R
-  - T
-  - {t: LAYER 5, h: toggle}
-  - Y
-  - U
-  - I
-  - O
+  - F
   - P
+  - B
+  - {t: LAYER 5, h: toggle}
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, s: ':'}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:mouse-right-click-outline$$'}
   - A
+  - R
   - S
-  - D
-  - F
+  - T
   - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - M
+  - N
+  - E
+  - I
+  - O
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: Z, h: LAYER 2}
   - X
   - C
+  - D
   - V
-  - B
   - {t: '6', h: toggle}
-  - N
-  - M
+  - K
+  - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
