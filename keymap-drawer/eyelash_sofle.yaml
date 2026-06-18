@@ -27,7 +27,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:mouse-right-click-outline$$'}
   - A
   - R
   - S
@@ -40,7 +40,7 @@ layers:
   - I
   - O
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: Z, h: LAYER 2}
   - X
   - C
