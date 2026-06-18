@@ -27,11 +27,11 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:mouse-right-click-outline$$'}
-  - A
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: A, h: '$$mdi:mouse-right-click-outline$$'}
   - R
   - S
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - T
   - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - M
