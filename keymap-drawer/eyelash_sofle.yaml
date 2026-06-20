@@ -31,11 +31,11 @@ layers:
   - A
   - R
   - S
-  - T
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - M
-  - N
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
   - E
   - I
   - O
