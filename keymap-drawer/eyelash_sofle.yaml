@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:backspace$$', h: LAYER 2}
   - LAYER 3
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB1'
   - $$mdi:apple-keyboard-caps$$
   LAYER 1:
   - $$mdi:backspace-reverse-outline$$
