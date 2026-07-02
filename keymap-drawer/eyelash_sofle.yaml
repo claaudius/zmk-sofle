@@ -60,9 +60,9 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - LAYER 1
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB1'
-  - {t: '$$mdi:backspace$$', h: LAYER 2}
   - LAYER 3
+  - {t: '$$mdi:backspace$$', h: LAYER 2}
+  - '&mkp MB1'
   - '&mkp MB1'
   - $$mdi:apple-keyboard-caps$$
   LAYER 1:
@@ -255,9 +255,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   LAYER 4:
