@@ -40,7 +40,7 @@ layers:
   - I
   - O
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: LAYER 2}
   - X
   - C
