@@ -156,6 +156,16 @@
             bindings = <&sk LEFT_SHIFT>;
             key-positions = <15 23>;
         };
+
+        LeftShift {
+            bindings = <&sk LEFT_SHIFT>;
+            key-positions = <29 30>;
+        };
+
+        RightShift {
+            bindings = <&sk RIGHT_SHIFT>;
+            key-positions = <34 35>;
+        };
     };
 
     macros {
