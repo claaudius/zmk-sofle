@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - LAYER 3
   - {t: '$$mdi:backspace$$', h: LAYER 2}
-  - '&mkp MB1'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - '&mkp MB2'
   - $$mdi:apple-keyboard-caps$$
   LAYER 1:
