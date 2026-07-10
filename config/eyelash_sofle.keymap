@@ -167,12 +167,12 @@
             key-positions = <34 35>;
         };
 
-        leftshift {
+        leftshift5 {
             bindings = <&sk RIGHT_SHIFT>;
             key-positions = <56 15>;
         };
 
-        leftshift {
+        leftshift9 {
             bindings = <&sk RIGHT_SHIFT>;
             key-positions = <56 16>;
         };
