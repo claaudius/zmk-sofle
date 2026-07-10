@@ -281,11 +281,11 @@
 
         Layer_0 {
             bindings = <
-&kp ESC                      &mkp MB1      &mkp MB2   &mkp MB3      &kp C_VOLUME_DOWN           &kp C_VOLUME_UP    &none   &mkp MB1  &mkp MB2           &mkp MB3         &none     &none          &kp LEFT_GUI
-&kp TAB                      &kp Q         &kp W      &kp F         &kp P                       &kp B              &tog 5  &kp J     &kp L              &kp U            &kp Y     &kp SEMICOLON  &kp DELETE
-&tap_dance_click RCLK ENTER  &kp A         &kp R      &kp S         &hm LEFT_SHIFT T            &kp G              &none   &kp M     &hm RIGHT_SHIFT N  &kp E            &kp I     &kp O          &kp ENTER
-&kp LEFT_SHIFT               &lt 2 Z       &kp X      &kp C         &kp D                       &kp V              &tog 6  &kp K     &kp H              &kp COMMA        &kp DOT   &kp FSLH       &sk RIGHT_SHIFT
-&kp C_MUTE                   &CtrlShiftS2  &kp SPACE  &kp LEFT_ALT  &hm_300 LEFT_CONTROL SPACE  &mo 1              &none   &mo 3     &lt 2 BACKSPACE    &sk RIGHT_SHIFT  &mkp MB2  &kp CAPSLOCK
+&kp ESC                      &mkp MB1      &mkp MB2   &mkp MB3      &kp C_VOLUME_DOWN           &kp C_VOLUME_UP    &none   &mkp MB1  &mkp MB2           &mkp MB3         &none              &none          &kp LEFT_GUI
+&kp TAB                      &kp Q         &kp W      &kp F         &kp P                       &kp B              &tog 5  &kp J     &kp L              &kp U            &kp Y              &kp SEMICOLON  &kp DELETE
+&tap_dance_click RCLK ENTER  &kp A         &kp R      &kp S         &hm LEFT_SHIFT T            &kp G              &none   &kp M     &hm RIGHT_SHIFT N  &kp E            &hm RIGHT_SHIFT I  &kp O          &kp ENTER
+&kp LEFT_SHIFT               &lt 2 Z       &kp X      &kp C         &kp D                       &kp V              &tog 6  &kp K     &kp H              &kp COMMA        &kp DOT            &kp FSLH       &sk RIGHT_SHIFT
+&kp C_MUTE                   &CtrlShiftS2  &kp SPACE  &kp LEFT_ALT  &hm_300 LEFT_CONTROL SPACE  &mo 1              &none   &mo 3     &lt 2 BACKSPACE    &sk RIGHT_SHIFT  &mkp MB2           &kp CAPSLOCK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
