@@ -37,7 +37,7 @@ layers:
   - M
   - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
   - E
-  - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
+  - I
   - O
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
