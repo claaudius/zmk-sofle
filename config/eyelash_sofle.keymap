@@ -166,6 +166,16 @@
             bindings = <&sk RIGHT_SHIFT>;
             key-positions = <34 35>;
         };
+
+        leftshift {
+            bindings = <&sk RIGHT_SHIFT>;
+            key-positions = <56 15>;
+        };
+
+        leftshift {
+            bindings = <&sk RIGHT_SHIFT>;
+            key-positions = <56 16>;
+        };
     };
 
     macros {
