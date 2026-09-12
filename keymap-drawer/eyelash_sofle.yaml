@@ -5,8 +5,8 @@ layers:
   - $$mdi:volume-high$$
   - $$mdi:volume-low$$
   - '&mkp MB3'
-  - '&mkp MB1'
   - '&mkp MB2'
+  - '&mkp MB1'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-caps$$
