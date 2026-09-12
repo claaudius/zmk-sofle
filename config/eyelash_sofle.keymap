@@ -304,11 +304,11 @@
 
         Layer_1 {
             bindings = <
-&kp DELETE    &kp F2          &kp F2          &kp F3          &kp F4         &kp F5      &trans  &kp F6    &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
-&PlayGame     &msc SCRL_DOWN  &kp HOME        &kp UP_ARROW    &kp END        &WinDown    &tog 1  &trans    &trans          &mmv MOVE_UP    &trans           &trans   &kp F12
-&kp ENTER     &msc SCRL_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &kp HOME    &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans   &kp ENTER
-&ShowDesktop  &WinE           &none           &kp PAGE_UP     &kp PAGE_DOWN  &kp END     &trans  &trans    &trans          &trans          &trans           &trans   &trans
-&kp C_MUTE    &kp DEL         &kp A           &none           &trans         &trans      &trans  &mkp MB3  &mkp MB1        &mkp MB2        &trans           &trans
+&kp DELETE    &kp F2          &kp F2          &kp F3          &kp F4         &kp F5            &trans  &kp F6    &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
+&PlayGame     &msc SCRL_DOWN  &kp HOME        &kp UP_ARROW    &kp END        &msc SCRL_UP      &tog 1  &trans    &trans          &mmv MOVE_UP    &trans           &trans   &kp F12
+&kp ENTER     &msc SCRL_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &msc SCRL_DOWN    &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans   &kp ENTER
+&ShowDesktop  &WinE           &none           &kp PAGE_UP     &kp PAGE_DOWN  &kp END           &trans  &trans    &trans          &trans          &trans           &trans   &trans
+&kp C_MUTE    &kp DEL         &kp A           &none           &trans         &trans            &trans  &mkp MB3  &mkp MB1        &mkp MB2        &trans           &trans
             >;
 
             display-name = "LAYER 1";
