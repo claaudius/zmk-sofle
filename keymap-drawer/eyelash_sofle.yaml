@@ -2,8 +2,8 @@ layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER 0:
   - $$mdi:keyboard-esc$$
-  - $$mdi:volume-high$$
   - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - '&mkp MB3'
   - '&mkp MB2'
   - '&mkp MB1'
