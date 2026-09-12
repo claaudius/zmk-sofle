@@ -8,9 +8,9 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: LAYER 2}
   - '&mkp MB1'
   - '&mkp MB2'
-  - $$mdi:apple-keyboard-caps$$
+  - '&mkp MB3'
   LAYER 1:
   - $$mdi:backspace-reverse-outline$$
   - F2
