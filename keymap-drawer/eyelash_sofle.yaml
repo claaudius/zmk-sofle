@@ -2,11 +2,11 @@ layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER 0:
   - $$mdi:keyboard-esc$$
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - '&mkp MB1'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:pan-down$$
