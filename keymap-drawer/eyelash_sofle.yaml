@@ -40,7 +40,7 @@ layers:
   - I
   - O
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:backspace-reverse-outline$$
   - {t: Z, h: LAYER 2}
   - X
   - C
