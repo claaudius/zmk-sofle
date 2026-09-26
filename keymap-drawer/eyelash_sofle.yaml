@@ -26,7 +26,7 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - $$mdi:backspace-reverse-outline$$
+  - END
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:mouse-right-click-outline$$'}
   - A
   - R
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - END
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
   - '&CtrlShiftS2'
   - $$mdi:keyboard-space$$
