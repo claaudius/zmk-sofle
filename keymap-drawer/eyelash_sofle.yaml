@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - V
+  - $$mdi:keyboard-esc$$
   - $$mdi:volume-off$$
   - '&CtrlShiftS2'
   - $$mdi:keyboard-space$$
