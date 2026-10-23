@@ -9,9 +9,9 @@ layers:
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-caps$$
-  - $$mdi:pan-down$$
-  - $$mdi:pan-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PgDn
+  - PgUp
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-tab$$
